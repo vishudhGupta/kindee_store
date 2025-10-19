@@ -9,20 +9,58 @@
  */
 {
   "sections": {
-    "image_banner_GBJRwz": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
+    "slideshow_QeE8wE": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_B3RMqx": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_36Khqe": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_B3RMqx",
+        "slide_36Khqe"
+      ],
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "rich_text_Eep8ny": {
@@ -300,7 +338,7 @@
     }
   },
   "order": [
-    "image_banner_GBJRwz",
+    "slideshow_QeE8wE",
     "rich_text_Eep8ny",
     "multirow_KCzGMr",
     "featured_collection_kU8n9U",
