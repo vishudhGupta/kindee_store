@@ -31,14 +31,14 @@
         "heading_4k3MBU": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Expertly Developed, Scientifically Validated",
             "heading_size": "h1"
           }
         },
         "text_bgQkjX": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Crafted from <strong>time-tested Ayurvedic herbs</strong>, our supplements embody purity, balance, and tradition.<br/>Every formulation is made with ingredients revered in Ayurveda for centuries.</p>"
           }
         }
       },
@@ -62,11 +62,11 @@
         "row_cCeRd3": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/OjasBalance.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Shop Now",
+            "image": "shopify://shop_images/top-view-wooden-mortar-filled-with-black-peppercorns-with-various-spices-herbs-glass-jars-black-wood.jpg",
+            "caption": "",
+            "heading": "Natural & Ayurvedic Formulations",
+            "text": "<p>Crafted from <strong>time-tested Ayurvedic herbs</strong>, our supplements embody purity, balance, and tradition.<br/>Every formulation is made with ingredients revered in Ayurveda for centuries.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
