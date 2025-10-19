@@ -244,45 +244,45 @@
         "collapsible_row_PyezCC": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What makes your Ayurvedic supplements different from regular health supplements?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Our supplements are crafted using <strong>time-tested Ayurvedic herbs</strong>, developed by <strong>Ayurvedic experts</strong>, and validated by <strong>modern scientific research</strong>. Each formulation is made to balance the body naturally — no chemicals, no artificial additives.</p>",
             "page": ""
           }
         },
         "collapsible_row_VcKK4G": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Are your products vegan and cruelty-free?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Yes! All our products are <strong>100% plant-based and cruelty-free</strong>. We never use animal-derived ingredients or conduct animal testing — because Ayurveda is about harmony with nature and all living beings.</p>",
             "page": ""
           }
         },
         "collapsible_row_WmJKKp": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How do you ensure the quality and safety of your supplements?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Every product is <strong>manufactured in GMP & ISO-certified facilities</strong>, following strict global safety and quality standards. Our herbs are <strong>sustainably sourced</strong> and <strong>lab-tested</strong> for purity, potency, and efficacy.</p>",
             "page": ""
           }
         },
         "collapsible_row_NHbEY9": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Are these supplements suitable for Indian lifestyles and diets?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Absolutely. Our formulations are <strong>customized for Indian food habits, climate, and body constitutions (Doshas)</strong> — supporting everyday wellness, digestion, and energy levels naturally.</p>",
             "page": ""
           }
         },
         "collapsible_row_4d3M6V": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Do you disclose all your ingredients and their quantities?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Yes — we believe in <strong>complete transparency</strong>. Every capsule label lists <strong>all ingredients with exact quantities</strong>, with <strong>no hidden blends or vague claims</strong>. You deserve to know what you’re putting into your body.</p>",
             "page": ""
           }
         }
