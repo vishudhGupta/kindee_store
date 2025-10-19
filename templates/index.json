@@ -15,6 +15,7 @@
         "slide_B3RMqx": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Untitled_design.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h1",
