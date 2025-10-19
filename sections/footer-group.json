@@ -14,17 +14,16 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "brand_information_aqdPR4": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Shop",
             "menu": "footer"
           }
         },
@@ -37,8 +36,8 @@
         }
       },
       "block_order": [
+        "brand_information_aqdPR4",
         "footer-0",
-        "footer-1",
         "footer-2"
       ],
       "settings": {
