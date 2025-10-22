@@ -9,6 +9,36 @@
  */
 {
   "sections": {
+    "main_banner_slider_G6wNip": {
+      "type": "main-banner-slider",
+      "blocks": {
+        "slide_jKJ7Pr": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Subtitle_24.jpg",
+            "alt_text": "",
+            "link": ""
+          }
+        },
+        "slide_p44pGY": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify://shop_images/WhatsApp_Image_2025-10-22_at_12.02.33_c4639689.jpg",
+            "alt_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_jKJ7Pr",
+        "slide_p44pGY"
+      ],
+      "name": "Banner Slider (Auto, Responsive)",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true
+      }
+    },
     "rich_text_Eep8ny": {
       "type": "rich-text",
       "blocks": {
@@ -327,6 +357,7 @@
     }
   },
   "order": [
+    "main_banner_slider_G6wNip",
     "rich_text_Eep8ny",
     "multirow_KCzGMr",
     "featured_collection_kU8n9U",
