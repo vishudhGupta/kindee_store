@@ -64,7 +64,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -78,8 +78,8 @@
           "settings": {
             "image": "shopify://shop_images/top-view-wooden-mortar-filled-with-black-peppercorns-with-various-spices-herbs-glass-jars-black-wood.jpg",
             "caption": "",
-            "heading": "Natural & Ayurvedic Formulations",
-            "text": "<p>Crafted from <strong>time-tested Ayurvedic herbs</strong>, our supplements embody purity, balance, and tradition.<br/>Every formulation is made with ingredients revered in Ayurveda for centuries.</p>",
+            "heading": "Expertly Developed, Scientifically Validated",
+            "text": "<p><strong>Developed by Ayurvedic experts</strong>, validated by <strong>modern research</strong>.<br/>Every blend is tested for <strong>safety, potency, and efficacy</strong> — bridging tradition with science.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -349,7 +349,7 @@
       ],
       "name": "t:sections.newsletter.presets.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
