@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -59,36 +52,27 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Description",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.description | metafield_tag }}</p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "Key Benefits",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.key_benefit | metafield_tag }}",
             "page": ""
           }
         },
-        "collapsible-row-2": {
+        "collapsible_tab_YnfyWp": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "heading": "Pack Size",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.pack_size.value }}</p>",
             "page": ""
           }
         },
@@ -100,7 +84,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
         "price",
@@ -110,8 +93,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
+        "collapsible_tab_YnfyWp",
         "share"
       ],
       "settings": {
