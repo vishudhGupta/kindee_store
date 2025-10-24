@@ -40,6 +40,9 @@
         "footer-0",
         "footer-2"
       ],
+      "custom_css": [
+        ".footer__copyright{display: none;}"
+      ],
       "settings": {
         "color_scheme": "scheme-2",
         "newsletter_enable": false,
