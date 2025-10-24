@@ -177,6 +177,74 @@
       ],
       "settings": {}
     },
+    "multicolumn_yFryC7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yKrPXj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mortar_2444876.png",
+            "title": "Natural & Ayurvedic Formulations",
+            "text": "<p>Time-tested Ayurvedic herbs blended into each formulation — rooted in tradition, made for your wellness.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EdPbKg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/agronomy_7085077.png",
+            "title": "Sustainably Grown Herbs from Indian Farms",
+            "text": "<p>Herbs ethically sourced from sustainable farms across India — because the best wellness starts at the root.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g368Bd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/location_2712992.png",
+            "title": "Customized for Indian Lifestyles & Diets",
+            "text": "<p>Formulated specifically for Indian food habits, climate and body constitutions (Doshas).</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_64JFJU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/knowledge_18400120.png",
+            "title": "Traditional Wisdom Meets Modern Science",
+            "text": "<p>Ancient Ayurvedic knowledge brought into the 21st century with rigorous quality control and lab-tested safety.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_yKrPXj",
+        "column_EdPbKg",
+        "column_g368Bd",
+        "column_64JFJU"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_GLBC3E": {
       "type": "multicolumn",
       "blocks": {
@@ -362,6 +430,7 @@
     "multirow_KCzGMr",
     "featured_collection_kU8n9U",
     "17608580648e420e02",
+    "multicolumn_yFryC7",
     "multicolumn_GLBC3E",
     "collapsible_content_gWwtAV",
     "featured_blog_drBbjh",
