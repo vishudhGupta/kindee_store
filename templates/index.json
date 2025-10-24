@@ -134,49 +134,6 @@
         "padding_bottom": 36
       }
     },
-    "17608580648e420e02": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_d8fc21a_pmTxYf": {
-          "type": "ai_gen_block_d8fc21a",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/bc82befa75fe486b806235c41b9b494c.mp4",
-            "section_height": 600,
-            "autoplay": true,
-            "loop": true,
-            "muted": true,
-            "controls": false,
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "heading": "",
-            "subheading": "<p>We source <strong>sustainably grown herbs</strong> from trusted farms across India — ensuring purity from soil to supplement.</p>",
-            "content_max_width": 700,
-            "content_position_vertical": "center",
-            "content_position_horizontal": "center",
-            "text_alignment": "center",
-            "show_text_background": true,
-            "text_background_opacity": 60,
-            "text_background_radius": 8,
-            "heading_size": 48,
-            "heading_color": "#ffffff",
-            "text_size": 18,
-            "text_color": "#ffffff",
-            "button_text": "Shop now",
-            "button_link": "",
-            "button_text_size": 16,
-            "button_color": "#ffffff",
-            "button_text_color": "#121212",
-            "button_hover_color": "#f3f3f3",
-            "button_border_radius": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_d8fc21a_pmTxYf"
-      ],
-      "settings": {}
-    },
     "multicolumn_yFryC7": {
       "type": "multicolumn",
       "blocks": {
@@ -244,6 +201,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17608580648e420e02": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d8fc21a_pmTxYf": {
+          "type": "ai_gen_block_d8fc21a",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/bc82befa75fe486b806235c41b9b494c.mp4",
+            "section_height": 600,
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "controls": false,
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "heading": "",
+            "subheading": "<p>We source <strong>sustainably grown herbs</strong> from trusted farms across India — ensuring purity from soil to supplement.</p>",
+            "content_max_width": 700,
+            "content_position_vertical": "center",
+            "content_position_horizontal": "center",
+            "text_alignment": "center",
+            "show_text_background": true,
+            "text_background_opacity": 60,
+            "text_background_radius": 8,
+            "heading_size": 48,
+            "heading_color": "#ffffff",
+            "text_size": 18,
+            "text_color": "#ffffff",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_text_size": 16,
+            "button_color": "#ffffff",
+            "button_text_color": "#121212",
+            "button_hover_color": "#f3f3f3",
+            "button_border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d8fc21a_pmTxYf"
+      ],
+      "settings": {}
     },
     "multicolumn_GLBC3E": {
       "type": "multicolumn",
@@ -429,8 +429,8 @@
     "rich_text_Eep8ny",
     "multirow_KCzGMr",
     "featured_collection_kU8n9U",
-    "17608580648e420e02",
     "multicolumn_yFryC7",
+    "17608580648e420e02",
     "multicolumn_GLBC3E",
     "collapsible_content_gWwtAV",
     "featured_blog_drBbjh",
