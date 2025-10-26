@@ -6,9 +6,21 @@
 
   .contact-info-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 28px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
     justify-items: center;
+  }
+
+  @media (max-width: 1024px) {
+    .contact-info-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .contact-info-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   .contact-card {
@@ -18,7 +30,7 @@
     text-align: center;
     padding: 40px 20px;
     width: 100%;
-    max-width: 330px;
+    max-width: 280px;
     min-height: 230px;
     display: flex;
     flex-direction: column;
@@ -51,22 +63,12 @@
     line-height: 1.6;
     color: #555;
     margin: 0;
-    max-width: 240px;
+    max-width: 230px;
     word-wrap: break-word;
     white-space: normal;
   }
-
-  @media (max-width: 768px) {
-    .contact-info-section {
-      padding: 40px 0;
-    }
-    .contact-card {
-      max-width: 100%;
-      min-height: 200px;
-      padding: 30px 16px;
-    }
-  }
 </style>
+
 
 <section class="contact-info-section">
   <div class="page-width text-center">
