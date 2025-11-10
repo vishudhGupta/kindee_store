@@ -97,12 +97,12 @@
         "share"
       ],
       "custom_css": [
-        ".product__title > h1{font-weight: bold;}"
+        ".product__title > h1 {font-weight: bold;}"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "stacked",
