@@ -17,17 +17,25 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "10% OFF on Every Order.",
+            "link": ""
+          }
+        },
+        "announcement_XB6tWe": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Delivery PAN India",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_XB6tWe"
       ],
       "settings": {
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
         "color_scheme": "scheme-4",
         "show_line_separator": true,
         "show_social": false,
