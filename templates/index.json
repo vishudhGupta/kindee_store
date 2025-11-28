@@ -82,20 +82,68 @@
     "multirow_KCzGMr": {
       "type": "multirow",
       "blocks": {
-        "row_cCeRd3": {
+        "row_ppRnEP": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/top-view-wooden-mortar-filled-with-black-peppercorns-with-various-spices-herbs-glass-jars-black-wood.jpg",
-            "caption": "",
-            "heading": "Expertly Developed, Scientifically Validated",
-            "text": "<p><strong>Developed by Ayurvedic experts</strong>, validated by <strong>modern research</strong>.<br/>Every blend is tested for <strong>safety, potency, and efficacy</strong> — bridging tradition with science.</p>",
+            "image": "shopify://shop_images/photo-1666370182138-1943009fae51.jpg",
+            "caption": "Chapter One",
+            "heading": "The Beginning of the Journey",
+            "text": "<p>Every journey begins in nature.</p><p>Formulated from carefully selected Ayurvedic herbs, backed by centuries of traditional wisdom.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_qYcbQK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/photo-1654327247312-422cffc0419a.jpg",
+            "caption": "Chapter Two",
+            "heading": "Where Wisdom Meets Craftsmanship",
+            "text": "<p>Where ancient wisdom becomes careful craftsmanship. Our supplements embody purity, balance, and tradition. Every formulation uses ingredients revered for centuries.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_PtXtVR": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/photo-1748261347902-451fb437e8fb.jpg",
+            "caption": "Chapter Three",
+            "heading": "The Bridge to Charak Samhita",
+            "text": "<p>Developed by Ayurvedic experts, validated by modern research.</p><p>Every blend is tested for safety, potency, and efficacy.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_e7KRwb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-10-22_at_12.02.32_f83a7bd6.jpg",
+            "caption": "Chapter Four",
+            "heading": "A Movement, Not a Brand",
+            "text": "<p>We represent more than a wellness brand.</p><p>This is a movement toward conscious, compassionate living.</p><p>For those seeking balance, easing stress, or reconnecting with themselves — we walk beside you.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_GfjP8D": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/freepik__banner-visual-a-serene-setup-herbs-golden-sunrise-__58286.png",
+            "caption": "Chapter Five",
+            "heading": "The Companion on Your Wellness Path",
+            "text": "<p>Your journey now meets ayurveda-backed formulations.</p><p>Every product is created to support your unique wellness path.</p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_cCeRd3"
+        "row_ppRnEP",
+        "row_qYcbQK",
+        "row_PtXtVR",
+        "row_e7KRwb",
+        "row_GfjP8D"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
