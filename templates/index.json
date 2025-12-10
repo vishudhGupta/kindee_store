@@ -79,6 +79,89 @@
         "padding_bottom": 52
       }
     },
+    "multirow_QqUMVD": {
+      "type": "multirow",
+      "blocks": {
+        "row_6YmBAJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/dltucvabiwa7s4rneaqv.webp",
+            "caption": "Kindee",
+            "heading": "Ojas-Brain By Kindee",
+            "text": "<p>Ojas-Brain by Kindee is an Ayurvedic formulation designed to enhance memory, concentration, and mental clarity while supporting stress management. This unique herbal blend combines the natural power of Brahmi, Tagar, Vacha, Ashwagandha, Jatamansi, and Jyotishmati — known in Ayurveda for promoting calmness, focus, and emotional balance.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/ojasbrain-brain"
+          }
+        },
+        "row_bt7Yqp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Kindee_Wellness_Nov_25-38146.webp",
+            "caption": "Kindee",
+            "heading": "Ojas-Fit By Kindee",
+            "text": "<p>Ojas-Fit by Kindee is an Ayurvedic formulation designed to support natural weight management and promote a healthy digestive system. Blended with the powerful goodness of Triphala, Guggul, Isabgol, Garcinia, and Trikatu, this herbal supplement helps cleanse the gut, boost metabolism, and assist in healthy fat loss.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/ojasfit-gut-cleanse-weight-loss"
+          }
+        },
+        "row_9cjxMG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Kindee_Wellness_Nov_25-38153.webp",
+            "caption": "Kindee",
+            "heading": "Ojas-Balance By Kindee",
+            "text": "<p>Ojas-Balance by Kindee is a scientifically formulated Ayurvedic supplement designed to support healthy glucose metabolism and insulin response. Enriched with time-tested herbal ingredients like Vijaysar, Methi, Karela, Jamun, Amla, Gudmar, Ashwagandha, Gokshur, Neem, Giloy, and Curcumin, this unique blend helps maintain normal blood sugar levels and supports carbohydrate and lipid metabolism naturally.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/ojasbalance-diabetes"
+          }
+        },
+        "row_b4qQMQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/di51fcqnpldgq6v8d6qr.webp",
+            "caption": "kindee",
+            "heading": "Ojas-Man By Kindee",
+            "text": "<p>OJAS-MAN is an Ayurvedic proprietary formulation designed to enhance energy, stamina, and overall male vitality. Enriched with time-tested herbs like Ashwagandha, Safed Musli, Shilajit, Kaunch Beej, Shatavari, and Gokhru, this natural blend helps rejuvenate body and mind, promoting strength, endurance, and overall well-being.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/ojasman-sexual-wellness"
+          }
+        },
+        "row_7ykp9M": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ldtr7gqctjqqdzrtme4o.webp",
+            "caption": "kindee",
+            "heading": "Shilajit Gold By Kindee",
+            "text": "<p>SHILAJIT GOLD by Kindee is a premium Ayurvedic formulation crafted to enhance strength, stamina, and immunity. Blending the power of Shilajit, Ashwagandha, Maca Root, Gokshru, and vital Ayurvedic Bhasmas, this formulation helps improve energy, endurance, and vitality naturally. It supports both physical and mental performance, helping you stay active and resilient every day.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/shilajit-by-kindee-shilajit"
+          }
+        }
+      },
+      "block_order": [
+        "row_6YmBAJ",
+        "row_bt7Yqp",
+        "row_9cjxMG",
+        "row_b4qQMQ",
+        "row_7ykp9M"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_KCzGMr": {
       "type": "multirow",
       "blocks": {
@@ -533,6 +616,7 @@
   "order": [
     "main_banner_slider_G6wNip",
     "rich_text_Eep8ny",
+    "multirow_QqUMVD",
     "multirow_KCzGMr",
     "featured_collection_kU8n9U",
     "multicolumn_yFryC7",
