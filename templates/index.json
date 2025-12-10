@@ -145,6 +145,7 @@
         "row_e7KRwb",
         "row_GfjP8D"
       ],
+      "disabled": true,
       "name": "t:sections.multirow.presets.name",
       "settings": {
         "image_height": "medium",
