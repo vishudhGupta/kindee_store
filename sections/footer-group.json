@@ -62,7 +62,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"display: flex; justify-content: center; align-items: center; width: 70%; padding: 20px;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0704/4861/1478/files/cover_4.jpg?v=1766861685\" alt=\"Cover Image\" style=\"max-width: 100%; height: 70%; display: block;\">\n</div>",
+        "custom_liquid": "<div style=\"display: flex; justify-content: end; align-items: center; width: 100%; padding: 20px;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0704/4861/1478/files/cover_4.jpg?v=1766861685\" alt=\"Cover Image\" style=\"max-width: 30%; height: auto; display: block;\">\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
