@@ -16,23 +16,9 @@
           "type": "title",
           "settings": {}
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -44,10 +30,6 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -64,6 +46,15 @@
             "heading": "Key Benefits",
             "icon": "none",
             "content": "{{ product.metafields.custom.key_benefit | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_htRgCL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.ingredients | metafield_tag }}",
             "page": ""
           }
         },
@@ -85,14 +76,12 @@
       },
       "block_order": [
         "title",
-        "caption",
         "price",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1",
+        "collapsible_tab_htRgCL",
         "collapsible_tab_YnfyWp",
         "share"
       ],
@@ -102,7 +91,7 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "thumbnail",
@@ -152,11 +141,35 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_xFffcY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_gViVWB": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.main_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_gViVWB"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "17611233914fd41fe3"
+    "17611233914fd41fe3",
+    "rich_text_xFffcY"
   ]
 }
