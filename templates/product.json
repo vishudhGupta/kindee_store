@@ -155,6 +155,9 @@
       "block_order": [
         "text_gViVWB"
       ],
+      "custom_css": [
+        ".rich-text__blocks{text-align: left!important;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
