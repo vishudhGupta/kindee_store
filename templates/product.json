@@ -155,7 +155,9 @@
       "block_order": [
         "text_gViVWB"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 100rem; }"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
