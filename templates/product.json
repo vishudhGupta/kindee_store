@@ -289,6 +289,7 @@
         "collapsible_row_pVmhgr",
         "collapsible_row_3H8KAT"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
