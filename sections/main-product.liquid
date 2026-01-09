@@ -674,6 +674,85 @@
                 </product-recommendations>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
+              {%- when 'product_benefits' -%}
+                <style>
+                  .product-benefits-{{ block.id }} {
+                    margin: {{ block.settings.spacing_top }}px 0 {{ block.settings.spacing_bottom }}px;
+                  }
+                  .product-benefits-grid-{{ block.id }} {
+                    display: grid;
+                    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+                    gap: {{ block.settings.gap }}px;
+                  }
+                  @media screen and (max-width: 749px) {
+                    .product-benefits-grid-{{ block.id }} {
+                      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+                    }
+                  }
+                  .benefit-item-{{ block.id }} {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                  }
+                  .benefit-icon-{{ block.id }} {
+                    flex-shrink: 0;
+                    width: {{ block.settings.icon_size }}px;
+                    height: {{ block.settings.icon_size }}px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: {{ block.settings.icon_background }};
+                    border-radius: 50%;
+                    overflow: hidden;
+                  }
+                  .benefit-icon-{{ block.id }} svg {
+                    width: 28px;
+                    height: 28px;
+                    fill: {{ block.settings.icon_color }};
+                  }
+                  .benefit-icon-{{ block.id }} img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                  }
+                  .benefit-title-{{ block.id }} {
+                    font-size: {{ block.settings.title_size }}px;
+                    font-weight: 600;
+                    color: {{ block.settings.title_color }};
+                    line-height: 1.4;
+                    margin: 0;
+                  }
+                </style>
+                <div class="product-benefits-{{ block.id }}" {{ block.shopify_attributes }}>
+                  <div class="product-benefits-grid-{{ block.id }}">
+                    {% for i in (1..6) %}
+                      {% assign benefit_text = 'benefit_' | append: i | append: '_text' %}
+                      {% assign benefit_img = 'benefit_' | append: i | append: '_image' %}
+                      {% if block.settings[benefit_text] != blank %}
+                        <div class="benefit-item-{{ block.id }}">
+                          <div class="benefit-icon-{{ block.id }}">
+                            {% if block.settings[benefit_img] != blank %}
+                              <img
+                                src="{{ block.settings[benefit_img] | image_url: width: 120 }}"
+                                alt="{{ block.settings[benefit_text] }}"
+                                width="{{ block.settings[benefit_img].width }}"
+                                height="{{ block.settings[benefit_img].height }}"
+                                loading="lazy"
+                              >
+                            {% else %}
+                              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C10.9 2 10 2.9 10 4C10 4.7 10.3 5.4 10.8 5.8C10.3 6.3 10 7 10 7.8C10 8.9 10.9 9.8 12 9.8C12.5 9.8 13 9.6 13.4 9.3C13.6 10.4 14.5 11.2 15.6 11.2C16.7 11.2 17.6 10.3 17.6 9.2C17.6 8.6 17.4 8.1 17 7.7C18.1 7.3 18.8 6.2 18.8 5C18.8 3.3 17.5 2 15.8 2C14.7 2 13.8 2.6 13.3 3.5C12.9 2.6 12 2 12 2ZM8.2 5C6.5 5 5.2 6.3 5.2 8C5.2 9.2 5.9 10.3 7 10.7C6.6 11.1 6.4 11.6 6.4 12.2C6.4 13.3 7.3 14.2 8.4 14.2C9.5 14.2 10.4 13.4 10.6 12.3C11 12.6 11.5 12.8 12 12.8C13.1 12.8 14 11.9 14 10.8C14 10 13.7 9.3 13.2 8.8C13.7 8.4 14 7.7 14 7C14 5.9 13.1 5 12 5C11.4 5 10.9 5.2 10.5 5.6C10.1 5.2 9.5 5 8.2 5Z"/>
+                              </svg>
+                            {% endif %}
+                          </div>
+                          <div class="benefit-content">
+                            <h4 class="benefit-title-{{ block.id }}">{{ block.settings[benefit_text] }}</h4>
+                          </div>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </div>
             {%- endcase -%}
           {%- endfor -%}
           <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -2084,6 +2163,200 @@
           "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.default",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        }
+      ]
+    },
+    {
+      "type": "product_benefits",
+      "name": "Product Benefits",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "range",
+          "id": "columns_desktop",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "label": "Columns (Desktop)",
+          "default": 2
+        },
+        {
+          "type": "range",
+          "id": "columns_mobile",
+          "min": 1,
+          "max": 2,
+          "step": 1,
+          "label": "Columns (Mobile)",
+          "default": 1
+        },
+        {
+          "type": "range",
+          "id": "gap",
+          "min": 0,
+          "max": 40,
+          "step": 4,
+          "unit": "px",
+          "label": "Gap",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "spacing_top",
+          "min": 0,
+          "max": 60,
+          "step": 4,
+          "unit": "px",
+          "label": "Spacing Top",
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "spacing_bottom",
+          "min": 0,
+          "max": 60,
+          "step": 4,
+          "unit": "px",
+          "label": "Spacing Bottom",
+          "default": 20
+        },
+        {
+          "type": "header",
+          "content": "Icon"
+        },
+        {
+          "type": "range",
+          "id": "icon_size",
+          "min": 30,
+          "max": 80,
+          "step": 5,
+          "unit": "px",
+          "label": "Icon Size",
+          "default": 50
+        },
+        {
+          "type": "color",
+          "id": "icon_background",
+          "label": "Icon Background",
+          "default": "#f5f3ff"
+        },
+        {
+          "type": "color",
+          "id": "icon_color",
+          "label": "Icon Color",
+          "default": "#5b47db"
+        },
+        {
+          "type": "header",
+          "content": "Text"
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Title Color",
+          "default": "#5b47db"
+        },
+        {
+          "type": "range",
+          "id": "title_size",
+          "min": 12,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "label": "Title Size",
+          "default": 16
+        },
+        {
+          "type": "header",
+          "content": "Benefit 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "benefit_1_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "benefit_1_text",
+          "label": "Title",
+          "default": "Increases Stamina"
+        },
+        {
+          "type": "header",
+          "content": "Benefit 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "benefit_2_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "benefit_2_text",
+          "label": "Title",
+          "default": "Boosts Muscle Recover"
+        },
+        {
+          "type": "header",
+          "content": "Benefit 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "benefit_3_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "benefit_3_text",
+          "label": "Title",
+          "default": "Reduces Stress"
+        },
+        {
+          "type": "header",
+          "content": "Benefit 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "benefit_4_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "benefit_4_text",
+          "label": "Title",
+          "default": "Improves Joint Health"
+        },
+        {
+          "type": "header",
+          "content": "Benefit 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "benefit_5_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "benefit_5_text",
+          "label": "Title",
+          "default": "Increased Power"
+        },
+        {
+          "type": "header",
+          "content": "Benefit 6"
+        },
+        {
+          "type": "image_picker",
+          "id": "benefit_6_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "benefit_6_text",
+          "label": "Title",
+          "default": "Double the Strength"
         }
       ]
     }
