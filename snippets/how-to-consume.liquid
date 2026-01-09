@@ -1,0 +1,91 @@
+{% comment %}
+  Renders how to consume section
+
+  Usage:
+  {% render 'how-to-consume' %}
+{% endcomment %}
+
+<style>
+  .how-to-consume {
+    background: #8ec642;
+    padding: 2.5rem 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+  }
+
+  .how-to-consume-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1b5e20;
+    margin: 0 0 2rem 0;
+  }
+
+  .consume-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 749px) {
+    .consume-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+
+  .consume-item {
+    text-align: center;
+  }
+
+  .consume-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .consume-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .consume-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1b5e20;
+    line-height: 1.4;
+    margin: 0;
+  }
+</style>
+
+<div class="how-to-consume">
+  <h3 class="how-to-consume-title">How to Consume</h3>
+  <div class="consume-grid">
+    <div class="consume-item">
+      <div class="consume-icon">
+        <img src="#" alt="1 Capsule Per Day" width="80" height="80" loading="lazy">
+      </div>
+      <p class="consume-text">1 Capsule Per Day</p>
+    </div>
+
+    <div class="consume-item">
+      <div class="consume-icon">
+        <img src="#" alt="After Breakfast" width="80" height="80" loading="lazy">
+      </div>
+      <p class="consume-text">After Breakfast</p>
+    </div>
+
+    <div class="consume-item">
+      <div class="consume-icon">
+        <img src="#" alt="60 Days (minimum)" width="80" height="80" loading="lazy">
+      </div>
+      <p class="consume-text">60 Days (minimum)</p>
+    </div>
+  </div>
+</div>
