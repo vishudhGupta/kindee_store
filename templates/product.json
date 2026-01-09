@@ -155,13 +155,11 @@
       "block_order": [
         "text_gViVWB"
       ],
-      "custom_css": [
-        ".rich-text__blocks{text-align: left!important;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
