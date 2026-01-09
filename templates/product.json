@@ -72,6 +72,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_nWLqQf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'custom-icon' %}"
+          }
         }
       },
       "block_order": [
@@ -83,7 +89,8 @@
         "collapsible-row-1",
         "collapsible_tab_htRgCL",
         "collapsible_tab_YnfyWp",
-        "share"
+        "share",
+        "custom_liquid_nWLqQf"
       ],
       "custom_css": [
         ".product__title > h1 {font-weight: bold;}"
