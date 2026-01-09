@@ -156,7 +156,7 @@
         "text_gViVWB"
       ],
       "custom_css": [
-        ".rich-text__blocks {max-width: 100rem; }"
+        ".rich-text__blocks {max-width: 100rem;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -164,8 +164,8 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     }
   },
