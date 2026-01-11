@@ -30,9 +30,19 @@
   }
 
   @media screen and (max-width: 749px) {
+    .how-to-consume {
+      padding: 1.5rem 0.75rem;
+      margin: 1rem 0;
+    }
+
+    .how-to-consume-title {
+      font-size: 18px;
+      margin: 0 0 1rem 0;
+    }
+
     .consume-grid {
       grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
+      gap: 0.5rem;
     }
   }
 
@@ -55,12 +65,27 @@
     object-fit: contain;
   }
 
+  @media screen and (max-width: 749px) {
+    .consume-icon {
+      width: 40px;
+      height: 40px;
+      margin: 0 auto 0.5rem;
+    }
+  }
+
   .consume-text {
     font-size: 16px;
     font-weight: 600;
     color: #1b5e20;
     line-height: 1.4;
     margin: 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    .consume-text {
+      font-size: 11px;
+      line-height: 1.3;
+    }
   }
 </style>
 
