@@ -563,21 +563,20 @@
     },
     "featured_blog_drBbjh": {
       "type": "featured-blog",
-      "disabled": true,
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
-        "blog": "",
+        "blog": "blog",
         "post_limit": 3,
         "heading": "Blog posts",
-        "heading_size": "h1",
-        "columns_desktop": 3,
+        "heading_size": "h2",
+        "columns_desktop": 2,
         "show_view_all": true,
         "show_image": true,
         "show_date": true,
         "show_author": false,
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "newsletter_8qQ4Mm": {
