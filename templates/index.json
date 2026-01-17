@@ -14,9 +14,8 @@
       "blocks": {
         "slide_hFVWDB": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "desktop_image": "shopify://shop_images/25_off_dekstop.jpg",
+            "desktop_image": "shopify://shop_images/banner_4.jpg",
             "alt_text": "",
             "link": ""
           }
