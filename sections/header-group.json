@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_CCeHhD": {
+          "type": "announcement",
+          "settings": {
+            "text": "Buy 2 Shilajit or 2 Ojas Man — pay for only 1",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -30,6 +37,7 @@
         }
       },
       "block_order": [
+        "announcement_CCeHhD",
         "announcement-bar-0",
         "announcement_XB6tWe"
       ],
