@@ -27,7 +27,7 @@
         "text_XJpiyM": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ product.metafields.custom.offer.value }}",
             "text_style": "body"
           }
         },
