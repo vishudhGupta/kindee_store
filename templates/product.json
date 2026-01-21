@@ -24,6 +24,13 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "text_XJpiyM": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -90,6 +97,7 @@
         "title",
         "price",
         "quantity_selector",
+        "text_XJpiyM",
         "buy_buttons",
         "custom_liquid_nWLqQf",
         "custom_liquid_CYqbnj",
