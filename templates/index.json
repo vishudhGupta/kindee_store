@@ -12,6 +12,14 @@
     "main_banner_slider_G6wNip": {
       "type": "main-banner-slider",
       "blocks": {
+        "slide_jb7KVx": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify://shop_images/ojas_man_banner_jpg.jpg",
+            "alt_text": "",
+            "link": ""
+          }
+        },
         "slide_hFVWDB": {
           "type": "slide",
           "settings": {
@@ -38,6 +46,7 @@
         }
       },
       "block_order": [
+        "slide_jb7KVx",
         "slide_hFVWDB",
         "slide_jKJ7Pr",
         "slide_p44pGY"
